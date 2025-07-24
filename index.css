@@ -2,11 +2,16 @@
     padding: 0px;
     margin: 0px;
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .first-container {
     background-color: #FAD826;
-    padding: 5px 20px 5px 22px;
-    width: 98%;
-    object-fit: cover;
+    width: 100%;
+    /* padding: 5px 20px 5px 22px; */
+    width: 100%;
+    /* object-fit: cover; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,6 +52,14 @@
     padding: 0px;
     
 }
+  .drop-down-button {
+    position: relative;
+    display: inline-block;
+  }
+  .drop-down-button:hover{
+    cursor: pointer;
+   
+  }
 .link {
     text-decoration: none;
     color: black;
@@ -56,14 +69,7 @@
     position: relative;
     width: 100%;}
 
-  .drop-down-button {
-    position: relative;
-    display: inline-block;
-  }
-  .drop-down-button:hover{
-    cursor: pointer;
-   
-  }
+
 
   .drop-down {
     display: none;
@@ -93,16 +99,17 @@
     width: 100%;
     height: 570px;
     padding: 10px;
-    object-fit: cover;
 
   }
   .video-container {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 98%;
     height: 100%;
     object-fit: cover;
+    /* padding: 20px; */
+    border: 1px solid black;
 }
 .main-video {
     width: 100%;
