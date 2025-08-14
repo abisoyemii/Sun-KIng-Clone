@@ -8,7 +8,8 @@ html, body {
 }
 .first-container {
     background-color: #FAD826;
-    width: 100%;
+    width: 100%; /* redundant */
+
     /* padding: 5px 20px 5px 22px; */
     width: 100%;
     /* object-fit: cover; */
@@ -119,7 +120,8 @@ html, body {
 .text-box{
    width: 100%;
   font-size: 35px; 
-  
+  display: flex;
+  margin-left: 30%;
  
 }
 .hello {
@@ -128,10 +130,10 @@ html, body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 50%;
-    bottom: 50%;
-    left: 48%;
-    top: 150px;
-    transform: translate(-50%, -50%);
+   float: left;
+    display: flex;
+    left: 30%;
+    
     color: white; 
     padding: 20px;
     text-align: center;
@@ -139,19 +141,20 @@ html, body {
     
 }
 .h5{
-  position: absolute;
+    position: absolute;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
     'Helvetica Neue', sans-serif;
-    width: 50%;
-    bottom: 50%;
-    left: 48%;
+    min-width: 50px;
+    display: flex;
+    
+    /* float: left; */
+    left: 25%;
     font-weight: light;
-    top: 230px;
-    transform: translate(-50%, -50%);
+    top: 20%;
      font-size: 23px;
     color: white; 
-    padding: 20px;
-    text-align: center;
+    /* padding: 20px; */
+    /* text-align: center; */
     
 
 }
@@ -160,15 +163,14 @@ html, body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
     'Helvetica Neue', sans-serif;
     width: 50%;
-    bottom: 50%;
+    bottom: 40%;
     
-    left: 32%;
+    left: ;
     font-weight: lighter;
-    top: 280px;
-    transform: translate(-50%, -50%);
+    
      font-size: 60px;
     color: white; 
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
 }
 .h52{
@@ -177,11 +179,11 @@ html, body {
     'Helvetica Neue', sans-serif;
     width: 50%;
     bottom: 50%;
-    left: 33%;
+    left: 14%;
     font-weight: light;
     top: 345px;
     width: 240px;
-    transform: translate(-50%, -50%);
+    
      font-size: 20px;
     color: white; 
     padding: 20px;
@@ -193,12 +195,11 @@ html, body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
     'Helvetica Neue', sans-serif;
     width: 50%;
-    bottom: 50%;
+    bottom: 40%;
     
-    left: 47%;
+    left: 27%;
     font-weight: lighter;
-    top: 280px;
-    transform: translate(-50%, -50%);
+    
      font-size: 60px;
     color: white; 
     padding: 20px;
@@ -210,11 +211,11 @@ html, body {
     'Helvetica Neue', sans-serif;
     width: 50%;
     bottom: 50%;
-    left: 49%;
+    left: 42%;
     font-weight: light;
     top: 345px;
     width: 200px;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
      font-size: 20px;
     color: white; 
     padding: 20px;
@@ -227,28 +228,28 @@ html, body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
     'Helvetica Neue', sans-serif;
     width: 50%;
-    bottom: 50%;
+    bottom: 40%;
     
-    left: 67%;
+    left: 50%;
     font-weight: lighter;
-    top: 278px;
-    transform: translate(-50%, -50%);
+    /* top: 278px; */
+    
      font-size: 60px;
     color: white; 
     padding: 20px;
     text-align: center;
 }
 .h54{
-   position: absolute;
+  position: absolute;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
     'Helvetica Neue', sans-serif;
     width: 50%;
     bottom: 50%;
-    left: 68%;
+    left: 64%;
     font-weight: light;
     top: 345px;
     width: 300px;
-    transform: translate(-50%, -50%);
+    
      font-size: 20px;
     color: white; 
     padding: 20px;
@@ -262,7 +263,7 @@ html, body {
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    font-size: 20px;
     bottom: 50%;
-    left: 50%;
+    left: 55%;
     border-radius: 30px;
     top:500px;
     transform: translate(-50%, -50%);
@@ -276,6 +277,7 @@ html, body {
 .main-second {
   
   background-color: #FAD826;
+  display: flex;
  
 }
 
